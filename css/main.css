@@ -59,16 +59,7 @@ img
 	text-align:left;
 }
 
-div#prevnext a
-{
-	background-color:#ffffff;
-	color:#3158b8;
-	padding:18px 12px;
-	margin:0 0 20px;
-	width:100%;
-	display:block;
-	border-radius:7px
-}
+
 
 .video-wrapper
 {
@@ -153,106 +144,7 @@ form#validate input.error,form#validate textarea.error
 	line-height:120%
 }
 
-/* comment styles */
-.middlewrapper h3#comments
-{
-	font-size:1em;
-	font-weight:400;
-	font-style:normal;
-	margin:31px 0 10px;
-	color:#222;
-	padding:7px;
-	background-color:#eee
-}
 
-.middlewrapper #comments
-{
-	clear:both
-}
-
-.middlewrapper #respond
-{
-	margin:42px 0;
-	clear:both
-}
-
-.middlewrapper #respond h3
-{
-	font-size:100%;
-	font-weight:700;
-	margin:0 0 15px;
-	color:#3158b8
-}
-
-.middlewrapper ol.commentlist
-{
-	list-style:none;
-	padding:0;
-	margin:0;
-	text-indent:0;
-	clear:both
-}
-
-.middlewrapper ol.commentlist li
-{
-	margin:0 0 30px;
-	background-color:#fff;
-	padding:15px;
-	border:1px solid #3158b8;
-	border-radius:5px
-}
-
-.middlewrapper ol.commentlist li ul
-{
-	list-style-type:none
-}
-
-.middlewrapper ol.commentlist li ul li
-{
-	margin-top:10px;
-	background-color:#eee
-}
-
-.middlewrapper .commentlist .comment-author a,.middlewrapper .commentlist .comment-meta a
-{
-	text-decoration:none
-}
-
-.middlewrapper .commentlist .comment-author a:hover,.middlewrapper .commentlist .comment-meta a:hover
-{
-	text-decoration:underline
-}
-
-.middlewrapper img.avatar
-{
-	clear:both;
-	display:block;
-	border-radius:4px;
-	margin-bottom:10px
-}
-
-.middlewrapper .comment-author cite
-{
-	font-size:1.3em;
-	font-weight:700
-}
-
-.middlewrapper .comment-meta
-{
-	margin-bottom:20px
-}
-
-.middlewrapper cite
-{
-	font-style:normal
-}
-
-.middlewrapper p.nocomments
-{
-	margin-top:61px;
-	font-style:italic;
-	color:#555
-}
 
 /* more common styles regardless of screen size */
 .middlewrapper p a,.middlewrapper ul li a,.middlewrapper ol li a
@@ -282,7 +174,7 @@ form#validate input.error,form#validate textarea.error
 	{
 		width:100%;
 		display:block;
-		background-image:url(images/nav-icon.png);
+		background-image:url(../images/nav-icon.png);
 		background-position:right;
 		text-indent:-9999px;
 		height:40px;
@@ -352,22 +244,7 @@ form#validate input.error,form#validate textarea.error
 		word-wrap:break-word
 	}
 
-	#sidebar
-	{
-		width:80%;
-		float:none;
-		text-align:center;
-		margin:30px auto 0;
-		border-radius:5px;
-		padding:20px 0
-	}
 
-	#sidebar img
-	{
-		border-radius:5px;
-		text-align:center;
-		margin-bottom:30px
-	}
 
 	/* form styles */
 	form
@@ -550,21 +427,6 @@ form#validate input.error,form#validate textarea.error
 		word-wrap:break-word
 	}
 
-	#sidebar
-	{
-		width:90%;
-		float:none;
-		text-align:center;
-		margin:30px auto 0;
-		padding:20px 0
-	}
-
-	#sidebar img
-	{
-		border-radius:5px;
-		text-align:center;
-		margin:0 15px 30px
-	}
 
 	/* form styles */
 	form
@@ -664,11 +526,7 @@ form#validate input.error,form#validate textarea.error
 		display:none
 	}
 
-	#blogwrapper
-	{
-		width:82%;
-		margin:0 auto
-	}
+
 
 	#navwrapper
 	{
@@ -752,20 +610,6 @@ form#validate input.error,form#validate textarea.error
 		word-wrap:break-word
 	}
 
-	#sidebar
-	{
-		width:30%;
-		float:right;
-		margin:61px 0 0
-	}
-
-	#sidebar img
-	{
-		border-radius:5px;
-		text-align:right;
-		float:right;
-		margin-bottom:30px
-	}
 
 	/* form styles */
 	form
