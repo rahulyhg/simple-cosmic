@@ -52,7 +52,10 @@ img
   font-family: 'Patua One', sans-serif;
 }
 
-.maincontent h2, h3, h4, p {
+.maincontent h2,
+.maincontent h3,
+.maincontent h4,
+.maincontent p {
 	text-align:left;
 }
 
