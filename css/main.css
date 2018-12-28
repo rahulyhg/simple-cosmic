@@ -90,13 +90,13 @@ form#validate input.error,form#validate textarea.error
 }
 
 /* post styles */
-.middlewrapper div.post
+.middlewrapper div.maincontent
 {
 	text-align:left;
 	margin-bottom:79px
 }
 
-.middlewrapper .post blockquote
+.middlewrapper .maincontent blockquote
 {
 	padding:0 12% 0 7%;
 	margin:25px 0 25px 0;
@@ -104,7 +104,7 @@ form#validate input.error,form#validate textarea.error
 	border-left:1px solid #333;
 }
 
-.middlewrapper .post .extrabox
+.middlewrapper .maincontent .extrabox
 {
 	padding:15px;
 	margin:25px auto;
@@ -115,7 +115,7 @@ form#validate input.error,form#validate textarea.error
 	line-height:140%
 }
 
-.middlewrapper .post p.post-date-time
+.middlewrapper .maincontent p.maincontent-date-time
 {
 	margin:0 0 30px;
 	background-color:#fff;
@@ -128,17 +128,17 @@ form#validate input.error,form#validate textarea.error
 	width:90%
 }
 
-.middlewrapper .post ul
+.middlewrapper .maincontent ul
 {
 	list-style-type:square
 }
 
-.middlewrapper .post ol,.post ul
+.middlewrapper .maincontent ol,.maincontent ul
 {
 	margin:0 0 20px 30px
 }
 
-.middlewrapper .post ul li,.middlewrapper .post ol li
+.middlewrapper .maincontent ul li,.middlewrapper .maincontent ol li
 {
 	margin:0 0 15px;
 	line-height:120%
