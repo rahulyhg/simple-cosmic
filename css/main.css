@@ -255,7 +255,8 @@ form#validate input.error,form#validate textarea.error
 		background-color:#eee;
 		margin:20px auto;
 		width:90%;
-		padding:4%
+		padding:4%;
+		text-align:left;
 	}
 
 	form p
