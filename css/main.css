@@ -33,7 +33,7 @@ img
 }
 
 
-#banner
+.banner
 {
 	background-color:#000;
 	text-align:center;
@@ -45,7 +45,7 @@ img
 	background-repeat:repeat; */
 }
 
-#banner h1 a
+.banner h1 a
 {
 	color:#ffffff;
 	text-decoration:none;
@@ -165,12 +165,12 @@ form#validate input.error,form#validate textarea.error
 /* small screens */
 @media only screen and (max-width : 550px) {
 
-	#banner
+	.banner
 	{
 		font-size:1.5em;
 	}
 
-	#nav-icon a
+	.nav-icon a
 	{
 		width:100%;
 		display:block;
@@ -182,7 +182,7 @@ form#validate input.error,form#validate textarea.error
 		background-repeat:no-repeat
 	}
 
-	#nav
+	.nav
 	{
 		width:90%;
 		text-align:center;
@@ -190,12 +190,12 @@ form#validate input.error,form#validate textarea.error
 		display:none;
 	}
 
-	#nav ul li
+	.nav ul li
 	{
 		display:block
 	}
 
-	#nav ul li a
+	.nav ul li a
 	{
 		padding:15px 0;
 		margin:5px auto;
@@ -310,7 +310,7 @@ form#validate input.error,form#validate textarea.error
 		cursor:pointer
 	}
 
-	#footer
+	.footer
 	{
 		width:90%;
 		margin:52px auto 15px;
@@ -320,13 +320,13 @@ form#validate input.error,form#validate textarea.error
 		border-radius:5px
 	}
 
-	#footer p
+	.footer p
 	{
 		line-height:190%;
 		padding:15px 5%
 	}
 
-	#footer a
+	.footer a
 	{
 		color:#3158b8
 	}
@@ -335,23 +335,23 @@ form#validate input.error,form#validate textarea.error
 /* medium screens */
 @media only screen and (min-width : 551px) and (max-width : 840px) {
 
-	#banner
+	.banner
 	{
 		font-size:2.0em;
 	}
 
-	#nav-icon
+	.nav-icon
 	{
 		display:none
 	}
 
-	#navwrapper
+	.navwrapper
 	{
 		width:100%;
 		margin:30px auto 73px
 	}
 
-	#nav
+	.nav
 	{
 		width:90%;
 		text-align:center;
@@ -359,21 +359,21 @@ form#validate input.error,form#validate textarea.error
 		margin:0 auto
 	}
 
-	#nav ul
+	.nav ul
 	{
 		text-align:center;
 		margin:0;
 		padding:0
 	}
 
-	#nav ul li
+	.nav ul li
 	{
 		display:inline;
 		width:150px;
 		word-wrap:normal
 	}
 
-	#nav ul li a
+	.nav ul li a
 	{
 		padding:15px;
 		width:150px;
@@ -383,7 +383,7 @@ form#validate input.error,form#validate textarea.error
 		border-radius:5px
 	}
 
-	#nav ul li a:hover
+	.nav ul li a:hover
 	{
 		text-decoration:none;
 		background-color:#ffffff;
@@ -492,7 +492,7 @@ form#validate input.error,form#validate textarea.error
 		cursor:pointer
 	}
 
-	#footer
+	.footer
 	{
 		width:90%;
 		margin:52px auto 15px;
@@ -502,13 +502,13 @@ form#validate input.error,form#validate textarea.error
 		border-radius:5px
 	}
 
-	#footer p
+	.footer p
 	{
 		line-height:170%;
 		padding:15px 5%
 	}
 
-	#footer a
+	.footer a
 	{
 		color:#3158b8
 	}
@@ -517,25 +517,25 @@ form#validate input.error,form#validate textarea.error
 /* large screens */
 @media only screen and (min-width : 841px) {
 
-	#banner
+	.banner
 	{
 		font-size:2.4em;
 	}
 
-	#nav-icon
+	.nav-icon
 	{
 		display:none
 	}
 
 
 
-	#navwrapper
+	.navwrapper
 	{
 		width:100%;
 		margin:30px 0 42px
 	}
 
-	#nav
+	.nav
 	{
 		width:82%;
 		text-align:center;
@@ -543,19 +543,19 @@ form#validate input.error,form#validate textarea.error
 		margin:0 auto
 	}
 
-	#nav ul
+	.nav ul
 	{
 		text-align:right
 	}
 
-	#nav ul li
+	.nav ul li
 	{
 		display:inline;
 		width:150px;
 		word-wrap:normal
 	}
 
-	#nav ul li a
+	.nav ul li a
 	{
 		font-size:1em;
 		padding:15px;
@@ -566,7 +566,7 @@ form#validate input.error,form#validate textarea.error
 		border-radius:5px
 	}
 
-	#nav ul li a:hover
+	.nav ul li a:hover
 	{
 		text-decoration:none;
 		background-color:#ffffff;
@@ -675,7 +675,7 @@ form#validate input.error,form#validate textarea.error
 		cursor:pointer
 	}
 
-	#footer
+	.footer
 	{
 		width:90%;
 		margin:52px auto 15px;
@@ -685,18 +685,18 @@ form#validate input.error,form#validate textarea.error
 		border-radius:5px
 	}
 
-	#footer p
+	.footer p
 	{
 		line-height:180%;
 		padding:15px 5%
 	}
 
-	#footer a
+	.footer a
 	{
 		color:#3158b8
 	}
 
-	#footer a:hover
+	.footer a:hover
 	{
 		text-decoration:underline
 	}
