@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
 });
 
 // validate contact form on keyup and submit
-jQuery("#validate").validate({
+jQuery(".validate").validate({
 // set the rules for the field names
 rules: {
 sendername: {

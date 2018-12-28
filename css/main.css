@@ -73,7 +73,7 @@ div.faq-answer
 }
 
 /* validation styles */
-form#validate .error
+form.validate .error
 {
 	color:#3158b8;
 	background-color:#FC0;
@@ -82,7 +82,7 @@ form#validate .error
 	width:70%
 }
 
-form#validate input.error,form#validate textarea.error
+form.validate input.error,form.validate textarea.error
 {
 	border:#3158b8;
 	background-color:#fff;
