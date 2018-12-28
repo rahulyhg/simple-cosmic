@@ -6,25 +6,25 @@
 jQuery(document).ready(function()
 {
   //toggle the component with the specified class/id
-  jQuery("#nav-icon").click(function()
+  jQuery(".nav-icon").click(function()
   		{
-    	jQuery("#nav").slideToggle(400);
+    	jQuery(".nav").slideToggle(400);
 		return false;
-  		});	
+  		});
 });
 
 
 //initiate validator on load
 jQuery(document).ready(function($) {
-	
+
 // this stuff is for the Notify Bar plugin page
 // toggle the faq-answer so it will show/hide as needed
   jQuery(".faq-question").click(function()
   {
     jQuery(this).next(".faq-answer").slideToggle(300);
 	return false;
-});	
-	
+});
+
 // validate contact form on keyup and submit
 jQuery("#validate").validate({
 // set the rules for the field names
@@ -54,4 +54,3 @@ gatecheck: "Please answer the spam filter question."
 }
 });
 });
-
