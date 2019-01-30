@@ -258,6 +258,14 @@ div.audio-box {
 		word-wrap:break-word
 	}
 
+	div.audio-box {
+      padding-bottom:42px;
+    }
+
+		div.big-nav-button {
+			width:100%;
+		}
+
 
 
 	/* form styles */
@@ -442,6 +450,13 @@ div.audio-box {
 		word-wrap:break-word
 	}
 
+	div.audio-box {
+	      padding-bottom:42px;
+	    }
+
+			div.big-nav-button {
+				width:100%;
+			}
 
 	/* form styles */
 	form
