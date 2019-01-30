@@ -162,6 +162,20 @@ form.validate input.error,form.validate textarea.error
 	font-style:italic
 }
 
+
+audio {
+        width:100%;
+        clear:both;
+        display:block;
+}
+
+div.audio-box {
+  padding-bottom:61px;
+}
+
+
+
+
 /* small screens */
 @media only screen and (max-width : 550px) {
 
